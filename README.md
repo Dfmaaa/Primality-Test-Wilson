@@ -10,5 +10,7 @@ However if p is prime, then each of the above integers are relatively prime to p
 2.3.4.....(p-2) ≡ 1     (mod p)
 
 (or more simply (p-2)! ≡ 1 (mod p)). Finally, multiply this equality by p-1 to complete the proof. 
+## Compiling
+Clone this repository and run make in it. The automatic variables have to be modified if one is not using the GNU coreutils or gcc.
 ## NOTE
 I know I could've made an integer test by doing ⌊cos^2 πx⌋ but I was too lazy.
